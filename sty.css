@@ -99,3 +99,84 @@ margin: o auto;
     height: 650px;
     margin-top: 100px;
 }
+/* welcome section start */
+main .welcome .leftside{
+    width: 50%;
+    margin-bottom: 126px;
+}
+
+main .welcome{
+    max-width: 1320px;
+    border:2px solid black;
+    min-height: 600px;
+    border-style: dashed;
+    margin: 0 auto;margin-top: 100px;
+    border-radius: 16px;
+
+    background-color: rgba(0,0,0,0.1);
+
+background-image: url('images/Vectorrr.png');
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+}
+main .welcome .welcome-head{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+margin-top: 126px;
+margin-left: 126px;
+}
+main .welcome .welcome-para{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 26px;
+margin-left: 126px;
+}
+main .welcome .welcome-p{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+margin-top: 34px ;
+margin-left: 130px;
+}
+main .welcome .welcome-image{
+width: 50%;
+margin-top: 67px;
+display: flex;
+justify-content: center;
+
+
+
+}
+main .welcome .welcome-image .image-wh{
+    border: 2px solid white;
+    border-style: dashed;
+    position: absolute;
+    width: 349.16px;
+height: 464.65px;
+}
+
+main .welcome{
+    
+    display: flex;
+    gap: 300px;
+    
+}
+/* welcome section End */
