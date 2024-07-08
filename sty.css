@@ -180,3 +180,51 @@ main .welcome{
     
 }
 /* welcome section End */
+
+/* address open */
+.Address {
+    width: 1380px;
+    height: 482px;
+margin: 0 auto;
+margin-top: 80px;
+margin-bottom: 80px;
+border-radius: 16px;
+
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    align-items: center;
+
+}
+.Address div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-top: 90px;
+}
+.Address p,button{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
+}
+.Address span{
+    color: red;
+}
+.Address button{
+    border-radius: 8px;
+    font-size: 20px;
+    width: 167px;
+height: 56px;
+
+background: rgb(255, 0, 0);
+color: white;
+}
+.Address .btn{
+    margin-top: 70px;
+}
+
+
+/* address close */
